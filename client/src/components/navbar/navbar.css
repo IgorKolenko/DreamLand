@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet');
+
+a {
+    color: #FFFFFF;
+    font-size: large;
+}
+
+a:hover {
+    color: #131862;
+}
+
+nav {
+    background-color: #546bab;
+}
+
+span{
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: x-large;
+    font-weight: light;
+}
+
+button{
+    color: white;
+}
+
+li {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+button:focus { outline:0 !important; }

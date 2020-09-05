@@ -1,0 +1,10 @@
+#bookForm {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: left;
+}
+
+.BookItem{
+    margin: 10px;
+}

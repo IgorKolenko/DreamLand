@@ -1,0 +1,92 @@
+
+#itempageBody{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+    justify-content: center;
+    padding: 50px;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.6) 99.97%, rgba(0, 0, 0, 0.4) 99.98%, rgba(0, 0, 0, 0.942708) 99.99%, rgba(0, 0, 0, 0) 100%), url('./background-img.jpg') no-repeat;
+    background-size: 100%;
+}
+
+@media only screen and (max-width: 1300px){
+    #itempageBody{
+        background-size: 300%;
+    }
+}
+
+#itemInfo{
+    width: 800px;
+    height: 650px;
+    text-align: left;
+    padding: 15px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#itemInfo h1{
+    font-size: 50px;
+    margin: 20px;
+}
+
+#itemInfo h2{
+    color: gray;
+    font-size: 30px;
+    margin: 20px;
+}
+
+#itemInfo h3{
+    font-size: 20px;
+    margin: 20px;
+}
+
+#itemInfo p{
+    width: 100%;
+    margin: 20px;
+}
+
+#itemImgDiv{
+    width: 800px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#addForm{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#addBtn{
+    float: left;
+    border-radius: 30px;
+    width: 150px;
+    margin: 20px;
+    background-color: #2E4482;
+    outline: none;
+    border: none;
+}
+
+#addBtn:hover{
+    text-decoration: none;
+    background-color: #007BFF;
+}
+
+#itemQuantity{
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#itemQuantity:active{
+    text-decoration: none;
+}

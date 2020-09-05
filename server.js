@@ -206,7 +206,7 @@ mongo.connect(process.env.MONGO_URI, (err, database) =>{
                 console.log('Successfully logged out');
             });
             console.log("Redirecting to /");
-            return res.redirect("http://localhost:3000/");
+            res.redirect("http://localhost:3000/");
         });
 
         app.post('/add-book', upload.single('pic'), function(req, res, next){
